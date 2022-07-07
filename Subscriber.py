@@ -20,7 +20,7 @@ print("connecting to broker")
 client.connect(broker_address) #connect to broker
 client.loop_start()
 print("Subscribing to topic","house/light/Test-light")
-client.subscribe("house/light/Test-light")
+client.subscribe("Bee/Data")
 
 time.sleep(1000)
 client.loop_stop()
